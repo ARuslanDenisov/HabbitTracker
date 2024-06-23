@@ -11,6 +11,19 @@
 		441AD96B2C26AF61002E81C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AD96A2C26AF61002E81C1 /* ContentView.swift */; };
 		441AD96D2C26AF62002E81C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441AD96C2C26AF62002E81C1 /* Assets.xcassets */; };
 		441AD9702C26AF62002E81C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 441AD96F2C26AF62002E81C1 /* Preview Assets.xcassets */; };
+		441AD9772C26C9BC002E81C1 /* DailySmallElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AD9762C26C9BC002E81C1 /* DailySmallElement.swift */; };
+		441AD9792C26C9D0002E81C1 /* HabitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AD9782C26C9D0002E81C1 /* HabitModel.swift */; };
+		441AD97B2C281EE4002E81C1 /* UserDefaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AD97A2C281EE4002E81C1 /* UserDefaultService.swift */; };
+		441AD9832C282490002E81C1 /* ImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AD9822C282490002E81C1 /* ImageExt.swift */; };
+		441AD9862C282512002E81C1 /* FontsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AD9852C282512002E81C1 /* FontsData.swift */; };
+		441AD98C2C282568002E81C1 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441AD9872C282568002E81C1 /* OpenSans-Light.ttf */; };
+		441AD98D2C282568002E81C1 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441AD9882C282568002E81C1 /* OpenSans-Semibold.ttf */; };
+		441AD98E2C282568002E81C1 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441AD9892C282568002E81C1 /* OpenSans-Bold.ttf */; };
+		441AD98F2C282568002E81C1 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441AD98A2C282568002E81C1 /* OpenSans-ExtraBold.ttf */; };
+		441AD9902C282568002E81C1 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 441AD98B2C282568002E81C1 /* OpenSans-Regular.ttf */; };
+		441AD9942C282873002E81C1 /* TextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AD9932C282873002E81C1 /* TextModifier.swift */; };
+		441AD9962C282F31002E81C1 /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AD9952C282F31002E81C1 /* TextHelper.swift */; };
+		441AD9982C286D01002E81C1 /* DailyBigElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441AD9972C286D01002E81C1 /* DailyBigElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,20 @@
 		441AD96A2C26AF61002E81C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		441AD96C2C26AF62002E81C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		441AD96F2C26AF62002E81C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		441AD9762C26C9BC002E81C1 /* DailySmallElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySmallElement.swift; sourceTree = "<group>"; };
+		441AD9782C26C9D0002E81C1 /* HabitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitModel.swift; sourceTree = "<group>"; };
+		441AD97A2C281EE4002E81C1 /* UserDefaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultService.swift; sourceTree = "<group>"; };
+		441AD9812C28241D002E81C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		441AD9822C282490002E81C1 /* ImageExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExt.swift; sourceTree = "<group>"; };
+		441AD9852C282512002E81C1 /* FontsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontsData.swift; sourceTree = "<group>"; };
+		441AD9872C282568002E81C1 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		441AD9882C282568002E81C1 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		441AD9892C282568002E81C1 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		441AD98A2C282568002E81C1 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		441AD98B2C282568002E81C1 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		441AD9932C282873002E81C1 /* TextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModifier.swift; sourceTree = "<group>"; };
+		441AD9952C282F31002E81C1 /* TextHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextHelper.swift; sourceTree = "<group>"; };
+		441AD9972C286D01002E81C1 /* DailyBigElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyBigElement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +78,17 @@
 		441AD9672C26AF61002E81C1 /* HabbitTracker */ = {
 			isa = PBXGroup;
 			children = (
+				441AD9812C28241D002E81C1 /* Info.plist */,
 				441AD9682C26AF61002E81C1 /* HabbitTrackerApp.swift */,
 				441AD96A2C26AF61002E81C1 /* ContentView.swift */,
-				441AD96C2C26AF62002E81C1 /* Assets.xcassets */,
+				441AD97E2C281F57002E81C1 /* Elements */,
+				441AD9842C28249F002E81C1 /* Extensions */,
 				441AD96E2C26AF62002E81C1 /* Preview Content */,
+				441AD97D2C281F49002E81C1 /* Models */,
+				441AD97C2C281F28002E81C1 /* Services */,
+				441AD96C2C26AF62002E81C1 /* Assets.xcassets */,
+				441AD9922C28258A002E81C1 /* Resources */,
+				441AD9932C282873002E81C1 /* TextModifier.swift */,
 			);
 			path = HabbitTracker;
 			sourceTree = "<group>";
@@ -65,6 +99,61 @@
 				441AD96F2C26AF62002E81C1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		441AD97C2C281F28002E81C1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				441AD97A2C281EE4002E81C1 /* UserDefaultService.swift */,
+				441AD9952C282F31002E81C1 /* TextHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		441AD97D2C281F49002E81C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				441AD9782C26C9D0002E81C1 /* HabitModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		441AD97E2C281F57002E81C1 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				441AD9762C26C9BC002E81C1 /* DailySmallElement.swift */,
+				441AD9972C286D01002E81C1 /* DailyBigElement.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		441AD9842C28249F002E81C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				441AD9822C282490002E81C1 /* ImageExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		441AD9912C282571002E81C1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				441AD9852C282512002E81C1 /* FontsData.swift */,
+				441AD9892C282568002E81C1 /* OpenSans-Bold.ttf */,
+				441AD98A2C282568002E81C1 /* OpenSans-ExtraBold.ttf */,
+				441AD9872C282568002E81C1 /* OpenSans-Light.ttf */,
+				441AD98B2C282568002E81C1 /* OpenSans-Regular.ttf */,
+				441AD9882C282568002E81C1 /* OpenSans-Semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		441AD9922C28258A002E81C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				441AD9912C282571002E81C1 /* Fonts */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				441AD9702C26AF62002E81C1 /* Preview Assets.xcassets in Resources */,
+				441AD98F2C282568002E81C1 /* OpenSans-ExtraBold.ttf in Resources */,
+				441AD98E2C282568002E81C1 /* OpenSans-Bold.ttf in Resources */,
+				441AD98C2C282568002E81C1 /* OpenSans-Light.ttf in Resources */,
 				441AD96D2C26AF62002E81C1 /* Assets.xcassets in Resources */,
+				441AD9902C282568002E81C1 /* OpenSans-Regular.ttf in Resources */,
+				441AD98D2C282568002E81C1 /* OpenSans-Semibold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +231,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441AD9792C26C9D0002E81C1 /* HabitModel.swift in Sources */,
+				441AD9982C286D01002E81C1 /* DailyBigElement.swift in Sources */,
+				441AD9942C282873002E81C1 /* TextModifier.swift in Sources */,
+				441AD9772C26C9BC002E81C1 /* DailySmallElement.swift in Sources */,
 				441AD96B2C26AF61002E81C1 /* ContentView.swift in Sources */,
+				441AD9962C282F31002E81C1 /* TextHelper.swift in Sources */,
+				441AD9832C282490002E81C1 /* ImageExt.swift in Sources */,
+				441AD9862C282512002E81C1 /* FontsData.swift in Sources */,
+				441AD97B2C281EE4002E81C1 /* UserDefaultService.swift in Sources */,
 				441AD9692C26AF61002E81C1 /* HabbitTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +377,7 @@
 				DEVELOPMENT_TEAM = MMRD3ZF494;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HabbitTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +407,7 @@
 				DEVELOPMENT_TEAM = MMRD3ZF494;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HabbitTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
